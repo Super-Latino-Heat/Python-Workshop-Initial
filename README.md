@@ -237,7 +237,7 @@ The same way, we will create the 'Update' part of the code.
 First the html (jinja) file `update.j2`:
 
 ```jinja
-{% extends 'base.html' %}
+{% extends 'base.j2' %}
 
 {% block header %}
   <h1>{% block title %}New ToDo Item{% endblock %}</h1>
