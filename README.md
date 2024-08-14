@@ -290,8 +290,10 @@ Finally we will add the buttons that will trigger these functions in `items.j2`:
     {% endif %}
   {% endfor %}
 {% endblock %}
-The project structure at this point:
+
 ```
+
+###The project structure at this point:
 
 ```
 ├── .venv
