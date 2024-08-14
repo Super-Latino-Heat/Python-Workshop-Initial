@@ -263,6 +263,11 @@ def update(item_id):
         return render_template('items.j2', items=items)
     return render_template('update.j2', item=items[item_id], item_id=item_id)
 ```
+
+Finally we will add the buttons that will trigger these functions in `items.j2`:
+
+```jinja
+
 {% extends 'base.j2' %}
 
 {% block header %}
@@ -287,6 +292,7 @@ def update(item_id):
 {% endblock %}
 The project structure at this point:
 ```
+
 ├── .venv
 ├── templates
 │   ├── base.j2
