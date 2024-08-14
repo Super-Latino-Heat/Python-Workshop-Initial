@@ -293,6 +293,7 @@ Finally we will add the buttons that will trigger these functions in `items.j2`:
 The project structure at this point:
 ```
 
+```
 ├── .venv
 ├── templates
 │   ├── base.j2
